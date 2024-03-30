@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(19, 17, 17, 0.233);
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  height: 12vh;
+}
+
+.logo {
+  width: 11vw;
+  background-color: antiquewhite;
+  margin-top: 1vh;
+  position: relative;
+}
+.text {
+  position: absolute;
+  left: 8vw;
+
+  font-size: 3vw;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  text-shadow: #f0f0f000;
+  text-decoration-color: brown;
+  color: rgb(247, 123, 1);
+}
+
+.nav-items {
+  margin-top: 0vh;
+  margin-right: 5%;
+}
+.nav-items > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.nav-items > ul > li {
+  margin: 1.4vh 1vw;
+  padding: 1.6vw;
+  font-size: 1.5vw;
+}
+.nav-items > ul > li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: rgb(252, 137, 44);
+}
+
+.res-card {
+  background-color: rgba(128, 128, 128, 0.103);
+  height: 50vh;
+  width: 16vw;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.res-image {
+  width: 100%;
+  height: 50%;
+}
+.res-image:hover {
+  border-radius: 20px;
+}
+.search {
+  padding: 10px;
+  margin: 10px;
+}
+.res-card:hover {
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  cursor: pointer;
+  background-color: #f0f0f000;
+  transform: scale(1.04);
+  border-radius: 20px;
+  overflow-y: visible;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  .res-image {
+    border-radius: 20px;
+  }
+}
+.temp {
+  margin-top: 0px;
+  padding: 5px;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 5px 70px;
+  align-items: center;
+  
+  
+  
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.shimmer-card {
+  background-color: rgba(128, 128, 128, 0.26);
+  height: 50vh;
+  width: 16vw;
+  margin: 1px;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.btn {
+  color: rgb(0, 81, 255);
+  text-decoration: underline;
+}
+.search-container {
+  display: flex;
+  margin: 1%;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(252, 137, 44);
+}
